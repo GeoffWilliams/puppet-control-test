@@ -1,5 +1,7 @@
 forge 'https://forge.puppet.com'
 
+b r o k e n !
+
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile',     '2.2.1'

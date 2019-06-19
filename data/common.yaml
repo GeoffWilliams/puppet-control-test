@@ -1,2 +1,3 @@
 ---
-message: "This node is using common data"
+ message: "This node is using common data"
+message2: "The above line is a syntax error due to indenting"
