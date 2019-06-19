@@ -1,0 +1,19 @@
+# /hiera.yaml
+#
+# Per-environment hiera configuration (acceptance test)
+---
+version: 5
+
+defaults:
+  datadir: "data"
+
+hierarchy:
+  - name: 'Yaml backend'
+    data_hash: yaml_data
+    paths:
+      - "/testcase/spec/data/%{facts.safe_os.family}_%{facts.safe_os.release.major}.yaml"
+      - "node/%{trusted.certname}.yaml"
+      - "%{safe_pp_role}.yaml"
+      - "customer_env/%{trusted.extensions.pp_environment}.yaml"
+      - "os/%{facts.safe_os.family}_%{facts.safe_os.release.major}.yaml"
+      - 'common.yaml'

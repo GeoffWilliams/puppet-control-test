@@ -1,1 +1,5 @@
 modules/
+.onceover
+**/.yardoc
+**/REFERENCE.md
+Puppetfile.onceover
