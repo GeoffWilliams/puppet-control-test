@@ -1,8 +1,3 @@
-# Example YAML file containing batch updates for ncedit
-# To process these changes, on the puppet master do:
-# ncedit batch --filename /PATH/TO/THIS/FILE
-#
-# ncedit is idempotent so run the command as often as you like
 "PE Master":
   "classes":
     "puppet_enterprise::profile::master":
