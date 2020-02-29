@@ -105,7 +105,7 @@ GEM
       log4r (= 1.1.10)
       multi_json (~> 1.10)
       puppet_forge (~> 2.2.8)
-    rake (12.3.2)
+    rake (12.3.3)
     rgen (0.8.2)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
