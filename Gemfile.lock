@@ -25,7 +25,7 @@ GEM
     hiera (3.5.0)
     hocon (1.2.5)
     httpclient (2.8.3)
-    json (2.2.0)
+    json (2.3.1)
     little-plugger (1.1.4)
     locale (2.1.2)
     log4r (1.1.10)
